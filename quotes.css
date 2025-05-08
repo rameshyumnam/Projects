@@ -13,6 +13,9 @@ body {
     gap: 25px;
     background-image: url(pngtree-illustration-of-a-3d-render-showcasing-a-concept-of-web-ui-image_13584942.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     animation: dark 2s;
 }
 @keyframes dark {
