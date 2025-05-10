@@ -45,11 +45,6 @@ signInBtn.addEventListener("click", () => {
     const email = emailInput.value.trim();
     const password = passwordInput.value.trim()
 
-    if(!email && !password) {
-        alert ("Please fill out the form first!")
-        return;
-    }
-
     // Check if he user is available or not
     const storedUser = localStorage.getItem("user");
     if (!storedUser) {
